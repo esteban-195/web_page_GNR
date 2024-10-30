@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+html{
+    scroll-behavior: smooth;}
+body{background-color:#ffbf0074 ;}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #000000;
+    color: aliceblue;
+    padding: 10px 0;
+    /* position: fixed;
+    top: 0;
+    width: 100%; */
+}
+
+.contenedor-imglogo{
+    flex: 0;
+    position: relative;
+    left: 250px;
+}
+nav ul{
+    flex: 0;
+    list-style: none;
+    display: flex;
+    font-size: 30px;
+    position: relative;
+    left: 50px;
+}
+
+nav ul li{
+    margin: 0 40px;}
+    
+nav ul li a {
+    color: #fff;
+    text-decoration: none;}
+nav ul li a:hover{
+    text-decoration: underline;
+    font-size: 35px;
+    color: #ffc800;
+    transition: 0.5s ease;
+}
+
+input[type="search"]{
+    flex: 0;
+    border-radius: 10px;
+    /* font-size: 20px; */
+    /* align-items: center; */
+    width: 250px;
+    height: 35px;
+    padding: 10px;
+    font-size: 17px;
+}
+
+.artista {
+    text-align: center;
+    background-color: #000000;
+    color: #fff;
+    margin: 10px;
+    padding:40px;
+    height: 250px;
+    /* margin-top: 120px; */
+}
+.artista h1{
+    font-size: 40px;
+}
+.artista p{
+    font-size: 25px;
+}
+h2{
+    font-size: 40px;
+    text-decoration-line: underline;
+}
+.videos{
+    text-align: center;
+    margin: 40px;
+}
+iframe{
+    box-shadow: 10px 10px 5px #0000005f,
+    -10px 15px 5px #0000005f,
+    -3px -5px 5px #0000005f;
+    border-radius: 10px;
+    margin: 30px;
+}
+.musica{
+    text-align: center;
+}
+.reproductor{
+    box-shadow: 5px 5px 5px #0000005f,
+    5px 5px 5px #0000005f,
+    -1px -1px 1px #0000005f;
+    border-radius: 10px;
+    margin: 30px 160px;
+}
+.reproductor:hover{
+    width: 325px;
+    height: 58px;
+}
+.galeria{
+    text-align: center;
+}
+.galeria-img{
+    display: flex;
+    justify-content: space-around;
+}
+.galeria-img img{
+    box-shadow: 5px 5px 5px #0000005f,
+    5px 5px 5px #0000005f,
+    -1px -1px 1px #0000005f;
+    border-radius: 5px;
+    margin: 60px;
+}
+.lugar{
+    text-align: center;
+}
+.lugar h2{
+    margin-bottom: 40px;
+}
+.lugar p{
+    font-size: 30px;
+}
+
+.boleteria{
+    text-align: center;
+    margin: 50px;
+}
+table{
+    margin: 0 auto;
+    border-collapse: collapse;
+    font-size: 25px;
+    width: 700px;
+    height: 150px;
+    position: relative;
+    top: 50px;
+}
+thead{
+    background-color: #00000070;
+    color: #fff;
+    height: 50px;
+}
+table th, td{
+    border: 2px solid black;
+}
+.contacto{
+    text-align: center;
+    margin-top: 100px;  
+}
+.contacto h2{
+    margin: 30px;
+}
+form{
+    background-color: #00000070;
+    margin: 0 600px;
+    padding: 50px 0;
+    border-radius: 10px;
+}
+form label{
+    font-size: 25px;
+    margin: 20px;
+    color: #fff;
+}
+form input{
+    width: 350px;
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+form textarea{
+    width: 550PX;
+    height: 100PX;
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+form button{
+    height: 30px;
+    width: 130px;
+    font-size: 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+}
+
+footer{
+    text-align: center;
+    background-color: #ffffff;
+    margin-top: 50px;
+    padding: 30px;
+}
+footer a{
+    margin: 10px;
+    align-items: center;
+    
+}
+

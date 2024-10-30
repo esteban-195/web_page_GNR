@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artista</title>
+    <link rel="stylesheet" href="assets/css/artista.css">
+</head>
+<body>
+    <!-- menu de navegacion -->
+    <header>
+        <aside class="contenedor-imglogo">
+            <img src="assets/css/img/logoGNR.png" alt="logoG&R" width="100px">
+        </aside>
+        <nav>
+            <ul>
+                <li><a href="#artista">Artista</a></li>
+                <li><a href="#musica">Música</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#lugar">Lugar</a></li>
+                <li><a href="#boleteria">Boletería</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        <aside class="buscador">
+            <input type="search" placeholder="Buscar" name="buscar">
+        </aside>
+    </header>
+    <!-- informacion del artista -->
+    <section id="artista" class="artista">
+        <h1>Guns N' Roses</h1><br>
+        <p>¿Estás listo para ser parte de la historia?<br>
+            ¡Vuelve Guns N' Roses a Medellín! <br>
+            Por primera vez en años, los integrantes originales de Guns N' Roses compartirán el escenario en Colombia para ofrecer un show cargado de energía, con la calidad y la fuerza que solo ellos pueden brindar. ¡No te pierdas la oportunidad de revivir la intensidad del rock auténtico en una de las noches más esperadas de la música en Medellín!
+        </p>
+    </section>
+    <section class="videos">
+        <h2>Video</h2>
+        <iframe width="1280" height="720" src="https://www.youtube.com/embed/32qx32rDcO8?si=2dM0oymyWLJNT9qx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+      <!-- musica -->
+    <section id="musica" class="musica">
+        <h2>Música</h2>
+        <audio controls class="reproductor">
+            <source src="assets/css/audio/Paradise City - Guns N' .mp3">
+        </audio>
+        <audio controls class="reproductor">
+            <source src="assets/css/audio/Guns and Roses - You Could Be Mine .mp3">
+        </audio>
+        <audio controls class="reproductor">
+            <source src="assets/css/audio/Guns N' Roses - Don't Cry .mp3">
+        </audio>
+    </section>
+    <section id="galeria" class="galeria">
+        <h2>Galería imágenes</h2>
+        <div class="galeria-img">
+            <img src="assets/css/img/EL6Qx7vX0AA8cQW.jpg" alt=""  width="500px">
+            <img src="assets/css/img/98966-guns-n-roses-heavy-metal-hair-concert-concerts-microphone.jpg" alt="" width="500px">
+            <img src="assets/css/img/guns-n-roses-wallpapers.jpg" alt="" width="500px">
+        </div>
+        <br>
+        <div class="galeria-img">
+            <img src="assets/css/img/iconic-1985-guns-n-roses-revolution-in-metal-music-9b75mha8dnsmz0jz.jpg" alt="" width="500px">
+            <img src="assets/css/img/slash-horizontal-gene-kirkland_1600x.jpg" alt="" width="500px">
+            <img src="assets/css/img/images.jpg" alt="" width="500px">
+        </div>
+    </section>
+
+    <section id="lugar" class="lugar">
+        <h2>Información del lugar</h2>
+        <p>El concierto se realizará en Parques del Rio - Medellín</p>
+        <p><b>¿Cómo llegar?</b></p> 
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5117.653945531941!2d-75.59274782401465!3d6.256772326203377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e44290e4f870f69%3A0xf57f97b59ef52c39!2sEstadio%20de%20F%C3%BAtbol%20Atanasio%20Girardot!5e1!3m2!1ses-419!2sco!4v1729711601292!5m2!1ses-419!2sco" width="1280" height="720" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+      <!-- TABLA -->
+    <section id="boleteria" class="boleteria">
+        <h2>Información de Boletería</h2>
+        <table >
+            <thead>
+                <tr>
+                    <td><b>Sector</b></td>
+                    <td><b>Precio</b></td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>VIP</td>
+                    <td>$900.000</td>
+                </tr>
+                <tr>
+                    <td>Preferencial</td>
+                    <td>$600.000</td>
+                </tr>
+                <tr>
+                    <td>General</td>
+                    <td>$300.000</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+      <!-- Contacto -->
+    <section id="contacto" >
+        <div class="contacto">
+            <h2>Contacto</h2>
+            <form action="">
+                <label for="nombre">Nombre</label><br>
+                <input type="text" name="nombre" id="nombre" placeholder="Escriba su nombre"><br>
+                <label for="correo">Correo electrónico</label><br>
+                <input type="email" name="correo" id="correo" placeholder="Escriba el correo"><br>
+                <label for="mensaje">Mensaje</label><br>
+                <textarea name="mensaje" id="mensaje" placeholder="Deje su mensaje"></textarea><br>
+                <button type="submit">Enviar</button>
+                <button type="reset">Borrar</button>
+            </form>
+        </div>
+    </section>
+    <!-- Pie de página -->
+    <footer>
+        <div>
+            <a href="https://www.instagram.com/guns.and.roses.ig/">
+                <img src="assets/css/img/IG.png" alt="instagram" width="40px">
+            </a>
+            <a href="https://www.facebook.com/gunsnroses">
+                <img src="assets/css/img/fb.png" alt="facebook" width="40px">
+            </a>
+            <a href="">
+                <img src="assets/css/img/WA.png" alt="whatsapp" width="40px">
+            </a>
+            <a href="https://twitter.com/gunsnroses?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
+                <img src="assets/css/img/twitter.png" alt="twitter" width="40px">
+            </a>
+        </div>
+        <div>
+            <p>&copy; 2024 Concierto Atanasio Girardot. Todos los derechos reservados.</p>
+            <p>ADSO</p>
+            <P>Ficha: 2996760</P>
+            <p>Luis Esteban Rodriguez Muñoz</p>
+        </div>
+    </footer>
+</body>
+</html>
